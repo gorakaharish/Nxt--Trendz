@@ -1,0 +1,29 @@
+.content{
+    background-image: radial-gradient(#9c1c8f, #9c1c8f) ;
+    height: 85vh;
+}
+
+
+@media screen  and (max-width: 768px){
+    .content{
+        background-color: #9c1c8f;
+        height: 80vh;
+        max-height: 80vh;
+    }
+}
+
+/* @media screen  and (min-width: 568px){
+    .content{
+        background-color: #9c1c8f;
+        height: 100vh;
+        max-height: 100vh;
+    }
+} */
+
+@media screen  and (max-width: 800px){
+    .content{
+        background-color: #9c1c8f;
+        height: 85vh;
+        max-height: 85vh;
+    }
+}
