@@ -31,7 +31,6 @@ const Cart = () => {
 
   const handleConfirmAndPay = () => {
     toast.success("Your order is  successfully!");
-
     // Clear the cart
     setProduct([]);
     localStorage.removeItem("Product");

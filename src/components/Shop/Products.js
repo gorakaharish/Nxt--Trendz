@@ -4,7 +4,7 @@ import {  useParams } from "react-router-dom";
 // import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { motion } from "framer-motion";
-import {  ToastContainer, toast } from "react-toastify";
+// import {  ToastContainer, toast } from "react-toastify";
 
 const LoadingSpinner = () => (
   <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>

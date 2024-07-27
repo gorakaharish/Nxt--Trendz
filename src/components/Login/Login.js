@@ -27,7 +27,7 @@ const Login = () => {
         navigate("/");
       } else{
         alert("wrong Email or Password");
-        // navigate("/register");
+        navigate("/register");
       }
     }
   };
